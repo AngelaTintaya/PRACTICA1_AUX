@@ -1,0 +1,27 @@
+<html> <!--El inicio del documento en html,el contenido de la pagina debe estar dentro de estas etiquetas--->
+
+<head> <!-- cabecera del documento contiene informacion interna de la pagina como metadatos , enlaces a hojas de estilo ,scripts , titulo de la pestaña-->
+    <title>registro de mascota</title> <!-- título que aparece en la pestaña del navegador -->
+</head> <!--cierra la cabecera-->
+<body> <!-- cuerpo del documento,contiene todo el contenido visible -->
+    <h1> FORMULARIO DE REGISTRO DE MEMORIA </h1> <!--significa encabezado de NIVEL 1, en el navegador se verá en letra grande y resaltada-->
+    <form> <!-- inicio del formulario -->
+
+        <label for="Nombre">Nombre de la Mascota:</label><br> <!--muestra el texto "nombre de la mascota" al usuario -->
+        <input type="text" id="Nombre" name="Nombre" required><br><br> <!--crea un campo de texto para escribir el nombre -->
+
+        <label for="edad">Edad (en años):</label><br> <!-- muestra el texto "edad (en años)" al usuario -->
+        <input type="number" id="edad" name="edad" min="0" required><br><br> <!--crea un campo numérico donde solo se pueden escribir números -->
+
+        <label for="raza">Raza:</label><br> <!-- texto para indicar que debe ingresar la raza -->
+        <input type="text" id="raza" name="raza" required><br><br> <!--campo de texto para escribir la raza de la mascota -->
+
+        <label for="color">Color:</label><br> <!-- texto que indica que debe ingresar el color -->
+        <input type="text" id="color" name="color" required><br><br> <!--campo de texto para escribir el color de la mascota -->
+
+        <label for="peso">Peso :</label><br> <!--texto que indica que debe ingresar el peso -->
+        <input type="number" id="peso" name="peso" step="0.1" min="0" required><br><br> <!-- campo numérico para escribir el peso, permite decimales -->
+
+    </form> <!-- fin del formulario -->
+</body> <!--cierra el cuerpo del documento-->
+</html> <!-- fin del documento html -->

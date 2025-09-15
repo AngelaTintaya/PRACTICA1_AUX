@@ -1,0 +1,36 @@
+<html> <!-- El inicio del documento en html,el contenido de la pagina debe estar dentro de estas etiquetas documento html -->
+    <head> <!--la cabecera contiene informacion interna de la pagina como metadatos , enlaces a hojas de estilo ,scripts , titulo de la pestaña-->
+        <title> REGISTRO DE PERSONA </title> <!-- título que aparece en la pestaña -->
+    </head>
+    <body> <!--cuerpo de la pagina contiene todo el contenido visible en la pagina web -->
+
+    <h1> FORMULARIO DE REGISTRO DE PERSONA </h1> <!-- título principal -->
+
+    <form > <!-- inicio del formulario -->
+
+        <label for="Nombre">NOMBRE :</label> <!-- etiqueta que indica que se debe ingresar el nombre -->
+        <input type="text" id="Nombre" name="Nombre" required> <!-- campo de texto para escribir el nombre -->
+        <br><br> <!-- saltos de línea para separar los campos -->
+
+        <label for="apellidos"> APELLIDOS :</label> <!-- etiqueta para los apellidos -->
+        <input type="text" id="apellidos" name="apellidos" required> <!-- campo de texto para escribir apellidos -->
+        <br><br> <!-- saltos de línea para separar los campos -->
+
+        <label for="edad"> EDAD:</label> <!-- etiqueta que indica que se debe ingresar la edad -->
+        <input type="number" id="edad" name="edad" min="0" required> <!-- campo numérico, no acepta negativos -->
+        <br><br> <!-- saltos de línea para separar los campos -->
+
+        <label for="genero"> GENERO:</label> <!-- etiqueta para el campo de género -->
+        <select id="genero" name="genero" required> <!-- menú desplegable para elegir género -->
+            <option value=""> Selecciona</option> <!-- opción por defecto -->
+            <option value="masculino"> MASCULINO</option> <!-- opción masculino -->
+            <option value="femenino"> FEMENINO</option> <!-- opción femenino -->
+        </select>
+        <br><br> <!-- saltos de línea para separar los campos -->
+
+
+    </form> <!-- fin del formulario -->
+
+</body> <!-- fin del cuerpo -->
+
+</html> <!-- fin del documento HTML -->
